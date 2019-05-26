@@ -26,7 +26,9 @@ class SignUp extends React.Component {
                       <label htmlFor="pwd">Password:</label>
                       <input type="password" className="form-control" id="pwd" placeholder="Enter password" name="pwd" />
                   </div>
+                  <div className="text-center">
                   <button type="submit" className="btn btn-default center-block">Submit</button>
+                  </div>
                   </form>
               </div>
           </div>
