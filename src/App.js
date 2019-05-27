@@ -1,5 +1,5 @@
 import React from 'react';
-import LogApp from './login/App.js';
+import LogApp from './login/app.js';
 
 function App() {
   return (
