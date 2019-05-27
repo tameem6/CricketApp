@@ -2,6 +2,15 @@ import React from 'react';
 import './static/sustyles.css'
 
 class Log extends React.Component {
+  constructor(props)
+  {
+    super(props);
+    this.state = {
+      isLogin: false,
+      email: '',
+      password: ''
+    }
+  }
   render() {
     return (
       <div className ="bg">

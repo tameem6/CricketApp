@@ -2,6 +2,17 @@ import React from 'react';
 import './static/sustyles.css';
 
 class SignUp extends React.Component {
+  constructor(props)
+  {
+    super(props);
+    state= {
+      fname: '',
+      lname: '',
+      email: '',
+      password: ''
+
+    }
+  }
   render() {
     return (
       <div className ="bg">
