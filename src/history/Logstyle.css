@@ -1,0 +1,77 @@
+
+.highlights{
+    
+    justify-content:  'center';
+    align-content: 'center';
+    border-radius: 4px;
+}
+.card-title {
+    height: 40px;
+    text-transform: uppercase;
+
+}
+.card{
+    
+    margin: 12px 12px 8px 12px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    min-height: 48px;
+    align-items: center;
+    margin: 8px 0;
+    height: 90px;
+}
+.flex1{
+    display: flex;
+}
+.flex2{
+    display: flex;
+}
+.team-name-left{
+    left: 20px;
+    justify-content: flex-start;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    width: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.team-name-right{
+    right: 20px;
+    justify-content: flex-end;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    width: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+}
+.act{
+    display: flex;
+    justify-content:space-evenly;
+    font-weight: 700;
+}
+
+
+.img-right{
+    margin-right:10px;
+    height: 64px;
+    width: 64px;
+    
+}
+.img-left{
+    margin-left:20px;
+    height: 64px;
+    width: 64px;
+    
+}
