@@ -8,3 +8,12 @@
 span{
   font-size: 25px;
 }
+image{
+  width: 100px;
+  height: 50px;;
+}
+table tbody tr:focus
+{
+  background-color: red !important;
+  color:red;
+}
