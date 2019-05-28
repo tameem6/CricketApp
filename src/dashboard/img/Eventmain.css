@@ -1,0 +1,16 @@
+
+.eventStyle{
+ border-radius:40px 40px 40px 40px;
+ 
+}
+ .rightImg{
+            float:right;         
+            height:130px;
+            border-radius:50%;
+        }
+.leftImg{
+            float:left ;
+            height:130px; 
+            border-radius:50%;
+        }
+   
