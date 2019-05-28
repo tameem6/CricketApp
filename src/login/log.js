@@ -2,7 +2,7 @@ import React from 'react';
 import './static/sustyles.css'
 
 class Log extends React.Component {
-  constructor(props)
+/*  constructor(props)
   {
     super(props);
     this.state = {
@@ -10,7 +10,7 @@ class Log extends React.Component {
       email: '',
       password: ''
     }
-  }
+  }*/
   render() {
     return (
       <div className ="bg">

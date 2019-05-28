@@ -2,7 +2,7 @@ import React from 'react';
 import './static/sustyles.css';
 
 class SignUp extends React.Component {
-  constructor(props)
+  /*constructor(props)
   {
     super(props);
     state= {
@@ -12,7 +12,7 @@ class SignUp extends React.Component {
       password: ''
 
     }
-  }
+  }*/
   render() {
     return (
       <div className ="bg">
@@ -28,6 +28,18 @@ class SignUp extends React.Component {
                       <div className="form-group">
                               <label htmlFor="lname">Last Name:</label>
                               <input type="text" className="form-control" id="lname" placeholder="Enter Last Name" name="l_name" />
+                      </div>
+                      <div className="form-group">
+                        <label htmlFor="gender">Gender</label><br />
+                        <select name="gender">
+                          <option value="M">Male</option>
+                          <option value="F">Female</option>
+                          <option value="O">Other</option>
+                        </select>
+                      </div>
+                      <div className="dob">
+                        <label htmlFor="dob">Date of Birth :</label><br />
+                        <input type="date" />
                       </div>
                   <div className="form-group">
                       <label htmlFor="email">Email:</label>
