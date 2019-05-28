@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./static/App.css";
-import image from './static/image.svg'
+import image from './static/image.png'
 import { FragmentsOnCompositeTypes } from "graphql/validation/rules/FragmentsOnCompositeTypes";
 class App extends Component {
   state = {
@@ -8,7 +8,9 @@ class App extends Component {
     {id:'3',name:"Dhawan",profession:"Batsman",age:"29"},{id:'4',name:"KL Rahul",profession:"Batsman And Wicketkeeper",age:"28"},
     {id:'5',name:"Hardik",profession:"Allrounder",age:"26"},{id:'6',name:"Bumrah",profession:"Bowler",age:"28"},
     {id:'7',name:"Buvneshawar",profession:"Bowler",age:"30"}],
-    selectedPlayer: '',value:'',users:[{username:"aman"},{username:"tamim"}]
+    selectedPlayer: '',value:'',users:[{username:"aman"},{username:"tamim"}],
+    Team1:[{teamName:"India"},{teamName:"Pakistan"},{teamName:"Australia"},{teamName:"South Africa"}],
+    Team2:[{teamName:"India"},{teamName:"Pakistan"},{teamName:"Australia"},{teamName:"South Africa"}]
   }
 handleClick  = (index)=>
 {
@@ -16,7 +18,6 @@ handleClick  = (index)=>
   const x = this.state.player[index].name;
   console.log(x);
   this.setState({selectedPlayer:x});
-
 }
 handleSubmit = (event)=>
 { 
@@ -27,12 +28,12 @@ handleSubmit = (event)=>
   {
     return (
       <React.Fragment>
-        <nav className="navbar bg-dark justify-content-between ">
-            <a><img src={'image'}  alt="image" /></a>
-            <div class="nav-item dropdown">
+        <nav className="navbar bg-dark justify-content-between">
+            <div><a href="#" className="navbar-brand"><img src={image} className="pl-3" alt="newimage" style={{width:"250px",height:"60px"}}/></a></div>
+            <div class="nav-item dropdown mt-2 ml-3">
               <button className="btn btn-danger nav-link dropdown-toggle" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.state.users[0].username}</button>
-              <div class="dropdown-menu mr-5" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item mr-5" href="#">Home</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Home</a>
               <a class="dropdown-item" href="#">Singout</a>
               </div>
             </div>
@@ -43,8 +44,8 @@ handleSubmit = (event)=>
                 <form className="form-group" onSubmit={this.handleSubmit}>
                   <div className="row">
                     <div className="col-sm-6">
-                    <h1>Team-1</h1>
-                      <table className="table">
+                    <h1>{this.state.Team1[0].teamName}</h1>
+                      <table className="table table-hover">
                           <thead>
                             <tr>
                               <th>S.N.</th>
@@ -64,8 +65,8 @@ handleSubmit = (event)=>
                       </table>
                     </div>
                     <div className="col-sm-6">
-                      <h1>Team-2</h1>
-                      <table className="table">
+                      <h1>{this.state.Team1[3].teamName}</h1>
+                      <table className="table table-hover">
                       <thead>
                             <tr>
                               <th>S.N.</th>
