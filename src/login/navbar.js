@@ -10,7 +10,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div><a href="#" className="navbar-brand"><img src={image} className="pl-3" alt="newimage" style={{width:"200px",height:"60px"}}/></a></div>
+        <div><Link to='/' className="navbar-brand"><img src={image} className="pl-3" alt="newimage" style={{width:"200px",height:"60px"}}/></Link></div>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/signup">

@@ -3,6 +3,7 @@ import ind from './img/flags/ind.jpg'
 import rsa from './img/flags/eng.jpg'
 import vs from './img/vs.png'
 import image from './img/image.png'
+import Navbar from '../components/Navbar';
 class Main extends Component {
     state={users:[{username:"aman"}]}
     render() {
@@ -17,20 +18,11 @@ class Main extends Component {
        }
         return (
             <React.Fragment>
-            <nav className="navbar bg-dark justify-content-between">
-            <div><a href="#" className="navbar-brand"><img src={image} className="pl-3" alt="newimage" style={{width:"250px",height:"60px"}}/></a></div>
-            <div class="nav-item dropdown mt-2 ml-3">
-              <button className="btn btn-danger nav-link dropdown-toggle" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.state.users[0].username}</button>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Signout</a>
-              </div>
-            </div>
-           </nav>
-            <div className="container text-center mb-3">
+            <Navbar></Navbar>
+            <div className="container text-center mb-3" style={{paddingBottom:"20000px"}}>
                 <h className="display-4 "><strong>Todays Match</strong></h>
                 <div className="row">
-                    <div className="col-lg-12">
+                    <div className="col-sm-12">
                         <div class="card text-white bg-light mb-3 " style={{borderRadius:"120px 120px 120px 120px"}}>
                             <div className="card-body p-0" >
                                 <img src={ind} style={height} className="float-left "  alt="hello"/>
