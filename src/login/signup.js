@@ -1,5 +1,6 @@
 import React from 'react';
 import './static/sustyles.css';
+import NavBar from './navbar';
 
 class SignUp extends React.Component {
   /*constructor(props)
@@ -15,12 +16,14 @@ class SignUp extends React.Component {
   }*/
   render() {
     return (
+      <div>
+        <NavBar />
       <div className ="bg">
           <div className="layer">
               <div className="container-fluid col-lg-6 col-md-6 col-sm-8 col-12">
                   <br />
                   <h2 className="text-center">Sign Up</h2>
-                  <form action="#">
+                  <form action="/">
                       <div className="form-group">
                               <label htmlFor="fname">First Name:</label>
                               <input type="text" className="form-control" id="fname" placeholder="Enter First Name" name="f_name" />
@@ -55,6 +58,7 @@ class SignUp extends React.Component {
                   </form>
               </div>
           </div>
+      </div>
       </div>
     )
   }

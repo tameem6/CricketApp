@@ -1,5 +1,6 @@
 import React from 'react';
 import './static/sustyles.css'
+import NavBar from './navbar';
 
 class Log extends React.Component {
 /*  constructor(props)
@@ -13,12 +14,14 @@ class Log extends React.Component {
   }*/
   render() {
     return (
+      <div>
+      <NavBar />
       <div className ="bg">
           <div className="layer">
               <div className="container-fluid col-md-6 col-sm-8 col-12">
                   <br />
                   <h2 className="text-center">Log In</h2>
-                  <form action="#">
+                  <form action="/dashboard">
                   <div className="form-group">
                       <label htmlFor="email">Email:</label>
                       <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
@@ -33,6 +36,7 @@ class Log extends React.Component {
                   </form>
               </div>
           </div>
+      </div>
       </div>
     )
 
