@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./static/App.css";
-import { FragmentsOnCompositeTypes } from "graphql/validation/rules/FragmentsOnCompositeTypes";
+
 import Navbar from "./Navbar";
 class App extends Component {
   state = {
