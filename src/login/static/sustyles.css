@@ -74,7 +74,7 @@
         background: -moz-linear-gradient(45deg, rgba(69,167,255,0.8) 0%, rgba(0,180,32,0.8) 100%);
         background: linear-gradient(45deg, rgba(69,167,255,0.8) 0%, rgba(0,180,32,0.8) 100%);
         z-index: -1;
-        transition: opacity 0.5s linear;
+        transition: opacity 600ms linear;
         opacity: 0;
         border-radius: 4px;
       }

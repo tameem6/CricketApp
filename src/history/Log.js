@@ -5,6 +5,7 @@ import axios from 'axios';
 import ENG from "./ENG.png";
 import AFGH from "./AFGH.png";
 import "./Logstyle.css";
+
 class Log extends Component {
   state = {
     show: false,
@@ -40,13 +41,13 @@ class Log extends Component {
       player.map(player => {
           return (
               <div className="post card" key={player.fullname}>
-                 
+
                   <div className="card-content">
-                     
+
                       <span className="card-title red-text ">
                          <b> {player.battingStyle}</b>
                       </span>
-                      
+
                       <p>{player.profile}</p>
                   </div>
               </div>
