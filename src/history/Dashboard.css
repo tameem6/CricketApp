@@ -22,6 +22,7 @@
     align-items: center;
     margin: 8px 0;
     height: 60px;
+    
 }
 .flex1{
     display: flex;
@@ -38,7 +39,6 @@
     align-items: center;
     white-space: nowrap;
     width: 40px;
-    color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -52,8 +52,12 @@
     white-space: nowrap;
     width: 40px;
     text-transform: uppercase;
-    color: #ffffff;
     font-weight: 700;
+}
+.head-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .act{
     display: flex;
