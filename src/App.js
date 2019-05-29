@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 
+import DashBoard2 from './dashboard/Main';
 import DashBoard from './history/Log';
 import PlaceBet from './placebet/components/App'
 import Log from './login/log.js';
@@ -15,6 +16,7 @@ function App() {
         <Route path='/signup' component={SignUp} />
         <Route path='/placebet' component={PlaceBet} />
         <Route path='/dashboard' component={DashBoard} />
+        <Route path='/dashboard2' component={DashBoard2} />
       </div>
     </BrowserRouter>
     </div>

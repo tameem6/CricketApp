@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./static/App.css";
 
+
 import Navbar from "./Navbar";
 class App extends Component {
   state = {
@@ -23,6 +24,7 @@ handleSubmit = (event)=>
 { 
   console.log("enter");
   event.preventDefault();
+  this.props.history.push('/dashboard2');
 }
   render() 
   {
