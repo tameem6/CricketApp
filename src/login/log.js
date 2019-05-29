@@ -21,7 +21,7 @@ class Log extends React.Component {
               <div className="container-fluid col-md-6 col-sm-8 col-12">
                   <br />
                   <h2 className="text-center">Log In</h2>
-                  <form action="/placebet">
+                  <form action="/dashboard">
                   <div className="form-group">
                       <label htmlFor="email">Email:</label>
                       <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />

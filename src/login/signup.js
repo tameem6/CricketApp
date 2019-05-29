@@ -23,7 +23,7 @@ class SignUp extends React.Component {
               <div className="container-fluid col-lg-6 col-md-6 col-sm-8 col-12">
                   <br />
                   <h2 className="text-center">Sign Up</h2>
-                  <form action="#">
+                  <form action="/">
                       <div className="form-group">
                               <label htmlFor="fname">First Name:</label>
                               <input type="text" className="form-control" id="fname" placeholder="Enter First Name" name="f_name" />
