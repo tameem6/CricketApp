@@ -39,7 +39,7 @@ class SignUp extends React.Component {
                       </div>
                       <div className="dob">
                         <label htmlFor="dob">Date of Birth :</label><br />
-                        <input type="date" />
+                        <input type="date" /><br />
                       </div>
                   <div className="form-group">
                       <label htmlFor="email">Email:</label>
