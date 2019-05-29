@@ -2,6 +2,7 @@ import React from "react";
 import ENG from "./ENG.png";
 import AFGH from "./AFGH.png";
 import "./Dashboard.css";
+import {Link} from 'react-router-dom';
 
 class Dashboard extends React.Component {
   render() {
@@ -28,14 +29,14 @@ class Dashboard extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <a
-                    href="#"
+                  <Link
+                    to='#'
                     class="btn btn-primary"
                     data-toggle="modal"
                     data-target="#exampleModal"
                   >
                     MATCH INFO
-                  </a>
+                  </Link>
 
                   <div
                     class="modal fade"
@@ -69,9 +70,11 @@ class Dashboard extends React.Component {
                           >
                             Close
                           </button>
+                          <Link to='/placebet'>
                           <button type="button" class="btn btn-primary">
                             BET
                           </button>
+                          </Link>
                         </div>
                       </div>
                     </div>

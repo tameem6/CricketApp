@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 
 import DashBoard2 from './dashboard/Main';
-import DashBoard from './history/Log';
+import DashBoard from './history/Dashboard';
 import PlaceBet from './placebet/components/App'
 import Log from './login/log.js';
 import SignUp from './login/signup.js';
