@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./static/App.css";
-import image from './static/image.png'
 import { FragmentsOnCompositeTypes } from "graphql/validation/rules/FragmentsOnCompositeTypes";
+import Navbar from "./Navbar";
 class App extends Component {
   state = {
     player:[{id:'1',name:"Virat",profession:"Batsman",age:"30"},{id:'2',name:"Rohit",profession:"Batsman",age:"28"},
@@ -13,7 +13,7 @@ class App extends Component {
     Team2:[{teamName:"India"},{teamName:"Pakistan"},{teamName:"Australia"},{teamName:"South Africa"}]
   }
 handleClick  = (index)=>
-{
+{ 
   console.log("Enter on click")
   const x = this.state.player[index].name;
   console.log(x);
@@ -28,20 +28,9 @@ handleSubmit = (event)=>
   {
     return (
       <React.Fragment>
-        <div className="menubar">
-        <nav className="navbar bg-dark justify-content-between">
-            <div><a href="#" className="navbar-brand"><img src={image} className="pl-3" alt="newimage" style={{width:"200px",height:"60px"}}/></a></div>
-            <div className="nav-item dropdown mt-2 ml-3">
-              <button className="btn btn-danger nav-link dropdown-toggle" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.state.users[0].username}</button>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">Home</a>
-              <a className="dropdown-item" href="#">Signout</a>
-              </div>
-            </div>
-          </nav>
-        </div>
-      <div className="container-fluid" >      
-          <div className="mt-2">
+      <Navbar user={this.state.users[0].username}></Navbar>
+      <div className="container-fluid">      
+          <div className="mt-3">
               <div className="card card-body">
                 <form className="form-group" onSubmit={this.handleSubmit}>
                   <div className="row selTeam">

@@ -10,18 +10,18 @@
 	.st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st5{fill:#B20824;}
 	.st6{font-family:'Ravie';}
-	.st7{font-size:115.8575px;}
+	.st7{font-size:231.715px;}
 	.st8{fill:#FFFFFF;}
-	.st9{font-size:24px;}
+	.st9{font-size:48px;}
 </style>
-<circle class="st0" cx="1104.6" cy="406.7" r="112.7"/>
-<polygon class="st1" points="1079.6,519.4 1041.2,497.9 951.9,259.5 1031.9,362.5 "/>
-<polygon class="st2" points="1151.4,509.2 1124.2,517.7 1131.9,350.2 1195,196.4 "/>
-<polygon class="st2" points="1111.3,517.7 1079.6,519.4 999.6,148.7 1079.6,273.3 "/>
-<circle class="st3" cx="1108.1" cy="231" r="28.5"/>
-<line class="st4" x1="1083.6" y1="216.5" x2="1136.5" y2="245.6"/>
-<line class="st4" x1="1088" y1="210.8" x2="1142.7" y2="242.5"/>
-<text transform="matrix(1.7021 0 0 2 685.0991 512.7178)" class="st5 st6 st7">Cb</text>
-<rect x="702" y="548" class="st5" width="515" height="63"/>
-<text transform="matrix(1.75 0 0 2 807.0938 593.5889)" class="st8 st6 st9">cricket-bet</text>
+<circle class="st0" cx="1052.6" cy="390.8" r="112.7"/>
+<polygon class="st1" points="1027.6,503.5 989.2,482 899.9,243.6 979.9,346.6 "/>
+<polygon class="st2" points="1099.4,493.3 1072.2,501.8 1079.9,334.3 1143,180.5 "/>
+<polygon class="st2" points="1059.3,501.8 1027.6,503.5 947.6,132.8 1027.6,257.4 "/>
+<circle class="st3" cx="1056.1" cy="215.1" r="28.5"/>
+<line class="st4" x1="1031.6" y1="200.6" x2="1084.5" y2="229.7"/>
+<line class="st4" x1="1036" y1="194.9" x2="1090.7" y2="226.6"/>
+<text transform="matrix(0.8511 0 0 1 633.0996 496.7856)" class="st5 st6 st7">Cb</text>
+<rect x="650" y="532.1" class="st5" width="515" height="63"/>
+<text transform="matrix(0.875 0 0 1 755.0938 577.6566)" class="st8 st6 st9">cricket-bet</text>
 </svg>
