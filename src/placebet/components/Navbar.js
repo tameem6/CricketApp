@@ -4,6 +4,7 @@ import image from './static/image.png'
 import {Link} from 'react-router-dom'
 class Navbar extends Component
 {
+    
     render()
     {
         return(
