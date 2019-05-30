@@ -7,6 +7,7 @@ import PlaceBet from './placebet/components/App'
 import Log from './login/log.js';
 import SignUp from './login/signup.js';
 import Admin from './adminpage/Adminpage';
+import Bg from './login/bg.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/dashboard' component={DashBoard} />
         <Route path='/dashboard2' component={DashBoard2} />
         <Route path='/admin' component={Admin} />
+        <Route path='/bg' component={Bg} />
       </div>
     </BrowserRouter>
     </div>

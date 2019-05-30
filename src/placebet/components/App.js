@@ -35,7 +35,7 @@ handleSubmit = (event)=>
                 <form className="form-group" onSubmit={this.handleSubmit}>
                   <div className="row selTeam">
                     <select className="form-control mx-2">
-                      <option className="mt-3" selected>Choose Your Team</option>
+                      <option className="mt-3">Choose Your Team</option>
                       <option>India</option>
                       <option>South Africa</option>
                     </select>

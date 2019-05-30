@@ -17,13 +17,14 @@ class Main extends Component {
         width:'150px'
        }
         return (
-            <React.Fragment>
+            <div>
             <Navbar></Navbar>
-            <div className="container text-center mb-3" style={{paddingBottom:"20000px"}}>
-                <h className="display-4 "><strong>Todays Match</strong></h>
+            <div className="bg">
+            <div className="container text-center mb-3" style={{paddingBottom:"472px"}}>
+                <h4 className="display-4 "><strong>Todays Match</strong></h4>
                 <div className="row">
                     <div className="col-sm-12">
-                        <div class="card text-white bg-light mb-3 " style={{borderRadius:"120px 120px 120px 120px"}}>
+                        <div className="card text-white bg-light mb-3 " style={{borderRadius:"120px 120px 120px 120px"}}>
                             <Link to='/placebet'>
                             <div className="card-body p-0" >
                                 <img src={ind} style={height} className="float-left "  alt="hello"/>
@@ -36,7 +37,8 @@ class Main extends Component {
                     </div>
                 </div>
             </div>
-            </React.Fragment>
+            </div>
+            </div>
         )
     }
 }
