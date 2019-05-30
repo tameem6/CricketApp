@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
+import Navbar from "../placebet/components/Navbar";
+
 class Adminpage extends Component {
   state = {
     admin: [{ adminname: "aman" }, { adminname: "aman" }],
@@ -30,7 +31,6 @@ class Adminpage extends Component {
                   className="btn btn-danger btn-block btn-lg my-3"
                   data-toggle="collapse"
                   href="#collapseExample"
-                  role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
@@ -78,7 +78,6 @@ class Adminpage extends Component {
                   className="btn btn-danger btn-block btn-lg my-3"
                   data-toggle="collapse"
                   href="#fixcollapseExample"
-                  role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
@@ -101,7 +100,7 @@ class Adminpage extends Component {
                         onChange={this.handleInput}
                         className="form-control"
                       />
-                      <label className="mt-3">Enter Bet Money </label>
+                      <label className="mt-3">Enter Bet Amount </label>
                       <input
                         type="text"
                         onChange={this.handleInput}

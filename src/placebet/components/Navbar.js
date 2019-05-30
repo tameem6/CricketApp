@@ -15,7 +15,7 @@ class Navbar extends Component
                     <div className="nav-item dropdown mt-2 ml-3">
                     <button className="btn btn-danger nav-link dropdown-toggle" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">aman</button>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <Link className="dropdown-item" to='/dashboard2'>Home</Link>
+                    <Link className="dropdown-item" to='/dashboard2'>User</Link>
                     <Link className="dropdown-item" to='/'>Signout</Link>
                     </div>
                     </div>
