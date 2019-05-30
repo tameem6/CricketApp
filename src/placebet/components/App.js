@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./static/App.css";
+import { FragmentsOnCompositeTypes } from "graphql/validation/rules/FragmentsOnCompositeTypes";
 import Navbar from "./Navbar";
 class App extends Component {
   state = {
@@ -22,12 +23,11 @@ handleSubmit = (event)=>
 { 
   console.log("enter");
   event.preventDefault();
-  this.props.history.push('/dashboard2');
 }
   render() 
   {
     return (
-      <div>
+      <React.Fragment>
       <Navbar user={this.state.users[0].username}></Navbar>
       <div className="container-fluid">      
           <div className="mt-3">
@@ -100,7 +100,7 @@ handleSubmit = (event)=>
               </div>
           </div>
       </div>
-      </div>
+      </React.Fragment>
     );
   }
 }
