@@ -7,6 +7,7 @@ import PlaceBet from './placebet/components/App'
 import Log from './login/log.js';
 import SignUp from './login/signup.js';
 import Admin from './adminpage/Adminpage';
+import CricketApp from './cricketapp';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path='/dashboard' component={DashBoard} />
         <Route path='/dashboard2' component={DashBoard2} />
         <Route path='/admin' component={Admin} />
+
+        <Route path='/CricketApp' component={CricketApp} />
       </div>
     </BrowserRouter>
     </div>
