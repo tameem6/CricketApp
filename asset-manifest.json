@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CricketApp/static/css/main.172ee55d.chunk.css",
+    "main.js": "/CricketApp/static/js/main.b6940bad.chunk.js",
+    "main.js.map": "/CricketApp/static/js/main.b6940bad.chunk.js.map",
+    "runtime~main.js": "/CricketApp/static/js/runtime~main.dc2533c7.js",
+    "runtime~main.js.map": "/CricketApp/static/js/runtime~main.dc2533c7.js.map",
+    "static/js/2.24f07d5b.chunk.js": "/CricketApp/static/js/2.24f07d5b.chunk.js",
+    "static/js/2.24f07d5b.chunk.js.map": "/CricketApp/static/js/2.24f07d5b.chunk.js.map",
+    "index.html": "/CricketApp/index.html",
+    "precache-manifest.fbbbceb14cc9e68dabd4ec578f07e8f4.js": "/CricketApp/precache-manifest.fbbbceb14cc9e68dabd4ec578f07e8f4.js",
+    "service-worker.js": "/CricketApp/service-worker.js",
+    "static/css/main.172ee55d.chunk.css.map": "/CricketApp/static/css/main.172ee55d.chunk.css.map",
+    "static/media/AFGH.png": "/CricketApp/static/media/AFGH.f2890736.png",
+    "static/media/Afghanistan.jpg": "/CricketApp/static/media/Afghanistan.57a803c7.jpg",
+    "static/media/Bangladesh.jpg": "/CricketApp/static/media/Bangladesh.8dba119f.jpg",
+    "static/media/ENG.png": "/CricketApp/static/media/ENG.77a116b9.png",
+    "static/media/India.jpg": "/CricketApp/static/media/India.55e1acd3.jpg",
+    "static/media/New Zealand.jpg": "/CricketApp/static/media/New Zealand.2e809818.jpg",
+    "static/media/West Indies.jpg": "/CricketApp/static/media/West Indies.69aa3a42.jpg",
+    "static/media/aus.jpg": "/CricketApp/static/media/aus.894c0cae.jpg",
+    "static/media/index.css": "/CricketApp/static/media/bg-01.4b0c04c5.png",
+    "static/media/vs.png": "/CricketApp/static/media/vs.f633ac85.png"
+  }
+}
