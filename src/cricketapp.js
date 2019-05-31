@@ -9,3 +9,5 @@ class CricketApp extends React.Component {
         )
     }
 }
+
+export default CricketApp;
