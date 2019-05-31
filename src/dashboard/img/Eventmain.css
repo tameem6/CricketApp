@@ -1,16 +1,15 @@
-
-.eventStyle{
- border-radius:40px 40px 40px 40px;
- 
+.tooltip-inner {
+    background-color: #00cc00;
 }
- .rightImg{
-            float:right;         
-            height:130px;
-            border-radius:50%;
-        }
-.leftImg{
-            float:left ;
-            height:130px; 
-            border-radius:50%;
-        }
-   
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #00cc00 !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+    border-right-color: #00cc00 !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-right-color: #00cc00 !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+    border-right-color: #00cc00 !important;
+}
