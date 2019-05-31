@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fefbb8c809890dbd9c8798830434350c",
+    "revision": "21a9e93452cd2ae9f592ca5285894075",
     "url": "/CricketApp/index.html"
   },
   {
-    "revision": "7788046df839ca4ade8f",
+    "revision": "e0c3b2df647c1b00ed67",
     "url": "/CricketApp/static/css/main.7c942d36.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CricketApp/static/js/2.24f07d5b.chunk.js"
   },
   {
-    "revision": "7788046df839ca4ade8f",
-    "url": "/CricketApp/static/js/main.f32809b1.chunk.js"
+    "revision": "e0c3b2df647c1b00ed67",
+    "url": "/CricketApp/static/js/main.59a8522f.chunk.js"
   },
   {
     "revision": "9fbde261f520c21d8ed0",
