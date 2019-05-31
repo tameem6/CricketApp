@@ -64,7 +64,7 @@ class Main extends Component {
             <div>
             <Navbar />
             <div className="bg">
-            <div className="container text-center mb-3" style={{paddingBottom:'472px'}}>
+            <div className="container text-center mb-3" style={{paddingBottom:'40px'}}>
                     <h4 className="display-4 "><strong>Todays Match</strong></h4>
                     <div className="row">
                        {
