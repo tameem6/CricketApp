@@ -18,7 +18,7 @@ class SignUp extends React.Component {
     return (
       <div>
         <NavBar />
-      <div className ="bg">
+        <div className="bg">
           <div className="layer">
               <div className="container-fluid col-lg-6 col-md-6 col-sm-8 col-12">
                   <br />
@@ -58,8 +58,8 @@ class SignUp extends React.Component {
                   </form>
               </div>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
     )
   }
 }

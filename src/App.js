@@ -14,12 +14,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <div className="App" >
-        <Route exact path='/CricketApp/login' component={Log} />
-        <Route path='/CricketApp/signup' component={SignUp} />
-        <Route path='/CricketApp/placebet' component={PlaceBet} />
-        <Route path='/CricketApp/dashboard' component={DashBoard} />
-        <Route path='/CricketApp/dashboard2' component={DashBoard2} />
-        <Route path='/CricketApp/admin' component={Admin} />
+        <Route exact path='/' component={Log} />
+        <Route path='/signup' component={SignUp} />
+        <Route path='/placebet' component={PlaceBet} />
+        <Route path='/dashboard' component={DashBoard} />
+        <Route path='/dashboard2' component={DashBoard2} />
+        <Route path='/admin' component={Admin} />
 
         <Route path='/CricketApp' component={CricketApp} />
       </div>

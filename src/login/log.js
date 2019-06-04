@@ -7,7 +7,8 @@ class Log extends React.Component {
     super(props);
     this.state={
       email: '',
-      password: ''
+      password: '',
+      error: ''
     }
   }
 
@@ -56,7 +57,7 @@ validate = (e) =>{
               </div>
           </div>
       </div>
-      </div>
+  </div>
     )
 
   }

@@ -1,4 +1,10 @@
+html{
+  min-height: 100%;
+}
+
 body {
+  background-image: url('./login/static/bg-01.png');
+  background-size:100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -13,10 +19,7 @@ code {
 }
 .bg{
   background-image: url('./login/static/bg-01.png');
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-size:100%;
 }
 
 .layer {
