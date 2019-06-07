@@ -12,7 +12,7 @@ class Main extends Component {
         matches:[]
     }
     componentDidMount() {
-        const  url="192.168.0.107:8080/getFixture"
+        const  url="http://192.168.0.107:8080/getFixture"
           fetch(url)
             .then(response => response.json())
             .then(data =>this.setState({matches:data.value}))
