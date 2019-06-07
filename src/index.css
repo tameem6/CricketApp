@@ -20,6 +20,9 @@ code {
 .bg{
   background-image: url('./login/static/bg-01.png');
   background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+    background-size: cover;
 }
 
 .layer {

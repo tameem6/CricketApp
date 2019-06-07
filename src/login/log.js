@@ -26,10 +26,32 @@ password = (e) =>{
 
 validate = (e) =>{
   e.preventDefault();
-  (this.state.username === 'test@email.com' || this.state.password === '123') ? (
-    this.props.history.push('/dashboard2')) : (
-      alert('Your UserName and Password is Wrong')
-    )
+  // (this.state.username === 'test@email.com' || this.state.password === '123') ? (
+  //   this.props.history.push('/dashboard2')) : (
+  //     alert('Your UserName and Password is Wrong')
+  //   )
+  fetch('http://192.168.0.107:8080/login?email='+this.state.email+'&password='+this.state.password, {
+  method: 'POST',
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    email: this.state.email,
+    password: this.state.password,
+  })
+}).then(response => {
+    if(response.status ===200)
+    {
+      this.props.history.push('/dashboard2');
+    }
+    else if(response.status===401 || response.status===404 || response.status===403)
+    {
+      alert("Wrong email or password, try again")
+    }
+}).catch(error => {
+  console.log(error)
+})
 
 }
   render() {
