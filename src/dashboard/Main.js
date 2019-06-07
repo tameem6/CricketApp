@@ -34,8 +34,6 @@ class Main extends Component {
         const result= matches.length ?(matches.map(match =>{
 
             return(
-                <div className="bg">
-                <div className="layer">
                 <div className="col-lg-12" key={match.id}>
                         <div className="card text-white bg-light mb-2 " style={{borderRadius:"120px 120px 120px 120px"}}>
                             <Link to='/placebet'>
@@ -55,10 +53,8 @@ class Main extends Component {
                             </Link>
                         </div>
                     </div>
-                    </div>
-                    </div>
             )
-    })):(<h1>loading....</h1>)
+    })):(<h1 style={{paddingBottom: '535px'}}>loading....</h1>)
       
        
       
