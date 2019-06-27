@@ -10,5 +10,7 @@ Clone this repository into your PC and run
 npm install
 ```
 Once finished run 
-```npm start``` &nbsp;
+```npm start``` 
+
+
 The Backend was built using Java + Apache Maven.
