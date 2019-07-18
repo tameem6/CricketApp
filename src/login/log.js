@@ -48,7 +48,7 @@ validate = (e) =>{
     else if(response.status===401 || response.status===404 || response.status===403)
     {
       alert("Wrong email or password, try again")
-    }
+    }   
 }).catch(error => {
   console.log(error)
 })
